@@ -122,7 +122,7 @@ echo $AKS_SSH_KEY_LOCATION
 ```
 # Create Log Analytics Workspace
 AKS_MONITORING_LOG_ANALYTICS_WORKSPACE_ID=$(az monitor log-analytics workspace create               --resource-group ${AKS_RESOURCE_GROUP} \
-                                           --workspace-name aksprod-loganalytics-workspace1 \
+                                           --workspace-name aksprod-loganalytics-workspace2 \
                                            --query id \
                                            -o tsv)
 
